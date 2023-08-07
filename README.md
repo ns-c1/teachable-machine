@@ -1,11 +1,11 @@
 # teachable-machine
 Using object recognition technology to identify the objects that the robot can meet using the teachable machine
-#First, go to https://teachablemachine.withgoogle.com/train/image
-##Adding pictures of people or things that the robot can meet with adding a name to classify something
-#I have used pictures of King Salman bin Abdulaziz and Crown Prince Mohammed bin Salman
-#After the images were processed, I added another image of King Salman to Atta to compare the percentage, and the image after processing showed that 81% belongs to King Salman bin Abdulaziz.
+# First, go to https://teachablemachine.withgoogle.com/train/image
+## Adding pictures of people or things that the robot can meet with adding a name to classify something
+# I have used pictures of King Salman bin Abdulaziz and Crown Prince Mohammed bin Salman
+## After the images were processed, I added another image of King Salman to Atta to compare the percentage, and the image after processing showed that 81% belongs to King Salman bin Abdulaziz.
 #![teachablemachine](https://github.com/ns-c1/teachable-machine/assets/139014871/3cab733f-0241-47f2-9d89-bd638223b4ad)
-#Javascript code
+# Javascript code
 ####<div>Teachable Machine Image Model</div>
 <button type="button" onclick="init()">Start</button>
 <div id="webcam-container"></div>
@@ -65,4 +65,4 @@ Using object recognition technology to identify the objects that the robot can m
         }
     }
 </script>
-####You can take advantage of this code by adding an attribute that links (teachable machine) with the camera of the robot and stored in the data base, and the robot can know the person or thing previously defined.
+## You can take advantage of this code by adding an attribute that links (teachable machine) with the camera of the robot and stored in the data base, and the robot can know the person or thing previously defined.
